@@ -132,5 +132,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`coffee server is running on http://localhost:${PORT}`);
+  console.log(`coffee server is running on https://coffee-store-server-mocha-nine.vercel.app/:${PORT}`);
 });
